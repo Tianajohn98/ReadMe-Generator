@@ -49,13 +49,7 @@ const questions = [
        name: "usage",
        message: "Do you want to add any usage information?",
      },
-     {
-       type: "input",
-       name: "usageInput" ,
-       message: "Please add the usage information",
-
-     },
-
+    
      {
       type: "input",
       name: "usageInfo",
@@ -118,7 +112,7 @@ const writeToFile = (fileName, data) => {
   err? console.error(err) : console.log(success)
     );
 
-}
+};
 
 
 // TODO: Create a function to initialize app
@@ -132,7 +126,7 @@ try {
     console.log(err);
 }
 
-}
+};
 
 
 
