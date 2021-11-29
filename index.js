@@ -17,7 +17,7 @@ const questions = [
 
     { 
       type: "input" ,
-      name: "projectTitle" ,
+      name: "title" ,
       message: "what is the name of your Github project?" ,
 
     },
