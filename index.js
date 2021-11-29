@@ -17,7 +17,7 @@ const promptUser = () => {
 
     { 
       type: "input" ,
-      name: "title" ,
+      name: "projectTitle" ,
       message: "what is the name of your Github project?" ,
 
     },
@@ -35,20 +35,15 @@ const promptUser = () => {
       message: "Please write a description of your project",
     },
 
-    {
 
-      type: "confirm",
-      name: "instal",
-      message: " Do you want to add any installation notes? ",
-
-     },
 
      {
       type: "input",
-      name: "installNotes",
+      name: "installation",
       message: "Please add the installation notes",
        
      },
+
      { 
        type: "confirm",
        name: "usage",
@@ -61,16 +56,61 @@ const promptUser = () => {
 
      },
 
+     {
+      type: "input",
+      name: "usageInfo",
+      message: "Please add your usage info",
+      when: function (answers) {
+          return answers.usage;
+      }
+
+
+
+     },
+
      {  type: "confirm",
         name: "contribution" ,
         message: "Do you want to add any contributing notes?",
        
 
+     },
 
-     }
+     {
+       type: "input",
+       name: "contributing",
+       message: "Please add your contributing notes",
+       when: function (answers) {
+           return answers.contrib;
+       }
+
+     },
+     {
+       type: "confirm",
+       name: "test",
+       message: "Do you want to add instructions for running tests?",
+
+     },
+     {
+       type: "input",
+       name: "tests",
+       message: "Please add your instructions for running tests",
+       when: function (answers){
+           return answers.test;
+       }
+        
+     },
+
+     { 
+      type: "rawlist",
+      name: "license", 
+      message:"Which open source license would you like to choose?",
+      choices: ['Apache 2.0','BSD 2-Clause', 'BSD 3-Clause', 'GNU AGPLv3.0','MIT','Mozilla Public 2.0'],
+
+     },
+     
 
 
-]);
+])};
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
