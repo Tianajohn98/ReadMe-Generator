@@ -1,9 +1,9 @@
-# ernvklev
+# Readme Generator
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/undefined/undefined)
 
 
  # Description
- bjen;tklnbrkonl
+  A read me Generator for Github
 
 
 #Table of Contents
@@ -23,7 +23,7 @@
 
  # Installation 
 
- bjnrktnbkjnrt
+ through terminal
 
  #Usage 
 
@@ -31,7 +31,7 @@
 
 #License
 
-BSD 2-Clause
+MIT
 
 # Contributing
 
@@ -39,8 +39,8 @@ undefined
 
 # Tests
 
-undefined
+Access through terminal and write node index .js
 
 #Questions 
-contact rjnvn at krelnv;emvkjknv
+contact TianaJohnson at yellow@gmail.com
  

@@ -12,3 +12,8 @@ You must have the inquirer dependency to use this application
 ###  Tests
 
 You can run a test by using node index.js
+
+#### Questions
+
+
+If you have questions contact Tianajohn98

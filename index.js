@@ -78,7 +78,7 @@ const questions = [
        name: "contributing",
        message: "Please add your contributing notes",
        when: function (answers) {
-           return answers.contrib;
+           return answers.contributing;
        }
 
      },
