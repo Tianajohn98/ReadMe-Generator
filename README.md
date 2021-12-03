@@ -16,4 +16,10 @@ You can run a test by using node index.js
 #### Questions
 
 
-If you have questions contact Tianajohn98
+If you have questions contact Tianajohn98 on github 
+
+#### Demo video
+
+https://watch.screencastify.com/v/L8BJxWgvAgynYgPogCz6  part 1
+
+https://watch.screencastify.com/v/udcDJdRjgIl62L5R0OeV  part 2
